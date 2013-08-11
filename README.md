@@ -8,4 +8,7 @@ At the end of a day of school and work, unecessary processes hog my Mac's RAM.  
 SOLUTION: 
 This AppleScript uses the 'purge' command to accomplish the same thing, without having to open a shell (Terminal) window.
 
+Here's the actual script:
+do shell script 'purge'
+
 NOTE: I use [Alfred](http://www.alfredapp.com/) to quickly execute this script.
