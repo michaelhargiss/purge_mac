@@ -5,10 +5,10 @@ This is a simple script, but it's useful.
 # Problem
 At the end of a day of school and work, unecessary processes hog my Mac's RAM. I got tired of rebooting in order to kill those processes and have a clean RAM slate. I wanted to kill those extraneous processes without killing the ones I was actually using.
 
-I can open up a CLI shell (Terminal) and type [tt]purge[tt]. Nice, but inconvenient, particularly when I'm running low on memory as it is.
+I can open up a CLI shell (Terminal) and enter `purge`. Nice, but inconvenient, particularly when I'm running low on memory as it is.
 
 # Solution
-This AppleScript uses the 'purge' command to accomplish the same thing, without having to open a shell window.
+This AppleScript uses the `purge` command to accomplish the same thing, without having to open a shell window.
 
 # How do I use it?
 
@@ -18,11 +18,14 @@ Your machine will seem to freeze momentarily. This is temporary and normal. Just
 
 # Dependencies?
 
-None. You just need a Mac.
+You just need a Mac with Applescript installed.
 
 # Notes
 
 Here's the actual script:
-[tt]do shell script 'purge'[tt]
+
+```Applescript
+do shell script 'purge'
+```
 
 I use [Alfred](http://www.alfredapp.com/) to quickly execute this script.
