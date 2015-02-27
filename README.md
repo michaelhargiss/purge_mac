@@ -1,4 +1,4 @@
-# purge_mac
+# purge-mac
 
 Free up that RAM!
 
@@ -8,7 +8,7 @@ At the end of a day of school and work, unecessary processes hog my Mac's RAM. I
 I can open Terminal and enter `purge`. Nice, but inconvenient, particularly when I'm running low on memory as it is.
 
 ### Solution
-*_purge_mac_* uses the `purge` command to accomplish the same thing, without having to open Terminal.
+**_purge-mac_** uses the `purge` command to accomplish the same thing, without having to open Terminal.
 
 ### How do I use it?
 
